@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* -------- BASIC SATUP -------- */
+
+/* ------------BODY----------- */
+body {
+  font-family: "Lato";
+}
+
+.login-container {
+  background-image: linear-gradient(#000046d0, #1cb5e0);
+  /* background-color: green; */
+}
+
+.login-img-container {
+  height: 100vh;
+  background-image: url("./images/flight.jpg");
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+}
+
+.form-container {
+  margin-top: 150px;
+}
+
+.form-control {
+  padding: 25px;
+  border-radius: 100px;
+  /* background-color: #ff7830c0; */
+  border: 1px solid black;
+}
+
+label {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 100px;
+  background-color: purple;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.or {
+  font-weight: 400;
+  color: #fff;
+}
