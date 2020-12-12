@@ -1,0 +1,233 @@
+/* -------- BASIC SATUP -------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* -------- BASIC SATUP -------- */
+
+/* ------------BODY----------- */
+body {
+  font-family: "Lato" sans-serif;
+}
+/* ------------Body----------- */
+
+/* -----------Header---------- */
+.header {
+  height: 95vh;
+  background-image: linear-gradient(#000046e7, #1cb5e0c5),
+    url("./images/header.jpg");
+  background-size: cover;
+  clip-path: polygon(2% 0, 98% 0, 98% 75vh, 2% 100%);
+}
+
+.header-title {
+  margin-top: 250px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+}
+/* ----------Header----------- */
+
+/* --------Tour Details-------- */
+.tour-detail-heading,
+.tour-heading {
+  font-size: 40px;
+  background-image: linear-gradient(#000046, #1cb5e0);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.tour-detail-p {
+  margin-top: 40px;
+}
+
+.tour-detail-img {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 70%;
+  border: 4px solid #000046e7;
+  border-radius: 10px;
+  padding: 5px;
+}
+/* --------Tour Details-------- */
+
+.why-us-row {
+  margin: 80px 10px 0 10px;
+  padding: 250px;
+  background-position: bottom;
+  background-image: linear-gradient(#0000469d, #1cb5e0de),
+    url("./images/background-why-us.jpg");
+
+  clip-path: polygon(2% 25%, 98% 0, 98% 80vh, 2% 90%);
+}
+
+.card {
+  opacity: 0.8;
+  margin-top: -40px;
+}
+
+i {
+  background-image: linear-gradient(#000046, #1cb5e0);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* --- flip card and Tour Section ----- */
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+
+  padding-bottom: 300px;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+}
+
+.flip-1:hover .back-1 {
+  transform: rotateY(0deg);
+  background-image: linear-gradient(#000046, #1cb5e0);
+}
+
+.flip-2:hover .back-2 {
+  transform: rotateY(0deg);
+  background-image: linear-gradient(#ffb900, #ff7730);
+}
+
+.flip-3:hover .back-3 {
+  transform: rotateY(0deg);
+  background-image: linear-gradient(#7ed56f, #28b485);
+}
+
+.cover {
+  width: 100%;
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: soft-light;
+
+  clip-path: polygon(100% 0, 100% 100%, 50% 89%, 0 100%, 0 0);
+}
+
+.cover-1 {
+  background-image: linear-gradient(#000046, #1cb5e0),
+    url("./images/manali-1941788_1920.jpg");
+}
+
+.cover-2 {
+  background-image: linear-gradient(#ffb900, #ff7730),
+    url("./images/pexels-sudipta-mondal-1603650.jpg");
+}
+
+.cover-3 {
+  background-image: linear-gradient(#7ed56f, #28b485),
+    url("./images/kashmir.jpg");
+}
+
+.btn {
+  border-radius: 100px;
+  width: 200px;
+  padding: 10px;
+  margin-top: 162px;
+  margin-left: 60px;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 1rem 2rem rgba(#000000, 0.2);
+}
+
+span {
+  position: absolute;
+  margin-top: 180px;
+
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.tour-p {
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 40px;
+  font-weight: 200;
+}
+
+.span-title {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 0 10px;
+}
+
+.span-title-1 {
+  background-image: linear-gradient(#000046a4, #1cb5e0dc);
+  margin-left: 80px;
+}
+
+.span-title-2 {
+  background-image: linear-gradient(#ffb900, #ff7730);
+  margin-left: 55px;
+}
+
+.span-title-3 {
+  background-image: linear-gradient(#7ed56f, #28b485);
+  margin-left: 70px;
+}
+
+.span-rs {
+  margin-left: 35px;
+  width: 80%;
+  margin-top: 390px;
+  font-size: 30px;
+  border-radius: 100px;
+  color: #fff;
+}
+
+.span-rs-1 {
+  background-image: linear-gradient(#2998ff, #1cb5e0dc);
+}
+
+.span-rs-2 {
+  background-image: linear-gradient(#ffb900, #ff7730);
+}
+
+.span-rs-3 {
+  background-image: linear-gradient(#7ed56f, #28b485);
+}
+
+.btn-orange:hover {
+  background-image: linear-gradient(#ffb900, #ff7730);
+}
+
+.btn-green:hover {
+  background-image: linear-gradient(#7ed56f, #28b485);
+}
+
+/* --- flip card and Tour Section ----- */
+
+/* ---------Footer------- */
+.footer {
+  height: 50vh;
+  background-image: linear-gradient(#000046e7, #1cb5e0c5);
+  background-size: cover;
+  margin-top: 100px;
+}
