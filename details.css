@@ -1,0 +1,113 @@
+/* -------- BASIC SATUP -------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* -------- BASIC SATUP -------- */
+
+/* ------------BODY----------- */
+body {
+  font-family: "Lato";
+}
+/* ------------Body----------- */
+/*-------- NAVBAR -------- */
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(
+    90deg,
+    #067c9cea 0%,
+    #000046ea 100%
+  ) !important;
+  padding: 13px !important;
+  margin-bottom: 70px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 700;
+  float: right;
+  text-align: left;
+}
+
+.navbar-brand img {
+  height: 50px;
+  padding-left: 20px;
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 30px !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.navbar .btn {
+  box-shadow: none;
+  float: right;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to left, #1cb5e0, #000046);
+  font-weight: 700;
+}
+
+.tour-title {
+  font-size: 60px;
+  background-image: linear-gradient(#000046, #1cb5e0);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.img-fluid {
+  position: relative;
+  outline: 5px solid #0397c4;
+  padding: 20px 20px 20px 20px;
+  transform: scale(1.05) translateY(-0.5rem);
+}
+
+span {
+  position: absolute;
+  background-image: linear-gradient(#2998ff, #1cb5e0dc);
+  clip-path: polygon(4% 4%, 100% 6%, 81% 50%, 100% 100%, 0 100%, 19% 50%);
+  color: #fff;
+  width: 190px;
+  backface-visibility: visible;
+  z-index: 1;
+  transform: rotate(-30deg);
+  font-size: 20px;
+  top: 20px;
+  left: -20px;
+  font-weight: 400;
+}
+
+.details-btn {
+  border-radius: 100px;
+  background-color: #0c0cda;
+  font-weight: 700;
+}
+
+.book-now-btn {
+  position: relative;
+  bottom: 65px;
+  left: 320px;
+  width: 38%;
+  border-radius: 100px;
+  background-color: purple;
+  font-size: 30px;
+  font-weight: 400;
+}
